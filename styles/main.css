@@ -1,10 +1,13 @@
-
-
 .bodi {
     margin: 0 auto;
-    max-width: 25em;
+    max-width: 26em;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+h1 {
+    color: #333;
 }
 
 li {
@@ -19,10 +22,20 @@ li {
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 1em 1em;
+    padding: 1em 6em;
     margin-top: 1em;
 }
 
 #btn {
     text-align: center;
+}
+
+#list {
+    overflow:auto; 
+    height:200px;
+}
+
+#input {
+    width: 20em;
+    padding: 1em 1em;
 }
